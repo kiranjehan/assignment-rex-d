@@ -1,0 +1,166 @@
+  body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .navbar {
+    box-shadow: 0 4px 8px 0 rgba(121, 119, 119, 0.2);
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: linear-gradient(to right, rgb(253, 14, 14), rgb(83, 81, 81));
+    text-decoration-thickness: 3px;
+
+  }
+
+  .main {
+    margin-top: 150px;
+  }
+
+  /* Float three columns side by side */
+  .column {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 10%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .text {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+  }
+
+  .text-two {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+
+  /* services section css */
+
+  .btn {
+    padding: 5px;
+
+  }
+
+
+  .btn-1,
+  .btn-2 {
+    color: rgb(102, 99, 99) !important;
+  }
+
+  .card-text {
+    color: darkgrey;
+  }
+
+  .card-title0 {
+    line-height: 55px;
+    word-spacing: 5px;
+  }
+
+  .SM {
+    width: 100%;
+    text-align: left;
+  }
+
+  /* .card-one{
+  border: none !important;
+} */
+
+  /* services sectiom css end */
+
+  .contact-form {
+    margin-top: 50px;
+    box-shadow: 0 15px 15px rgba(88, 86, 86, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+
+  .btn-gradient {
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .contact-form {
+    margin-top: 50px;
+  }
+
+  .contact-image {
+    margin-left: 25%;
+    max-width: 500px;
+    height: 100%;
+  }
+
+  .footer {
+    color: rgb(112, 106, 106);
+    padding: 40px 0;
+  }
+
+  .footer a {
+    color: rgb(112, 106, 106);
+    text-decoration: none;
+  }
+
+  .footer ul li {
+    margin-left: 30%;
+  }
+
+  .footer h5 {
+    margin-left: 30%;
+  }
+
+  .footer .logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    margin-left: 80%;
+  }
+
+  .button {
+    border: none;
+    background-image: linear-gradient(to right, rgb(253, 14, 14), rgb(83, 81, 81));
+    width: 100%;
+    height: 40px;
+    font-size: large;
+  }
